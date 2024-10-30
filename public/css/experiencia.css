@@ -53,3 +53,18 @@
 #avdo-url a {
     margin-left: 10px;
 }
+
+@media (max-width: 1080px) {
+
+    #cont-exp {
+        width: 90vw;
+    }
+
+    #avdo-url a {
+        font-size: 12px;
+    }
+
+    #wordp-url a {
+        font-size: 12px;
+    }
+}

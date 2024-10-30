@@ -92,26 +92,48 @@ img {
     text-shadow: 2px 2px 4px rgb(248, 248, 252);
 }
 @media (max-width: 1080px) {
+
+    #cont-header {
+        width: 90vw;
+        height: auto;
+    }
+
+    
+    
+    .cont-nombre-titulo {
+        width: 90vw;
+        height: auto;
+        
+    }
+
     #nombre {
-        font-size: 18px;
+        font-size: 14px;
     }
 
     .cont-foto,
     img {
-        width: 100px;
-        height: 130px;
+        width: 20vw;
+        height: 20vh;
     }
 
     .cont-nombre-titulo {
-        width: 100%;
-        height: 130px;
+        width: 90vw;
+        height: auto;
     }
 
     #titulo {
-        font-size: 8px;
+        font-size: 10px;
     }
 
-    .cont-titulo {
-        height: 80px;
+    #nomred a{
+        font-size: 12px;
+    }
+
+    #nomred {
+        width: 100px;
+    }
+
+    #footer {
+        width: 90vw;
     }
 }
