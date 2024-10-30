@@ -91,7 +91,7 @@ img {
     
     text-shadow: 2px 2px 4px rgb(248, 248, 252);
 }
-@media (max-width: 840px) {
+@media (max-width: 1080px) {
     #nombre {
         font-size: 18px;
     }
