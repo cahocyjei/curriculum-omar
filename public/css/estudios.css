@@ -1,0 +1,50 @@
+#cont-estudios {
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    border: 1px black solid;
+    overflow-y: scroll;
+    height: 700px;
+}
+
+.cont-utb, #utb {
+    margin-left: 5%;
+    width: 90%;
+    height: 100%;
+}
+
+.cont-java, #java {
+    margin-left: 5%;
+    margin-top: 10px;
+    width: 90%;
+    height: 100%;
+}
+.cont-angular, #angular {
+    margin-left: 5%;
+    margin-top: 10px;
+    width: 90%;
+    height: 100%;
+}
+
+
+
+@media (max-width: 840px) {
+   .cont-utb, #utb {
+    margin-left: 0;
+    width: 100%;
+    height: 90%;
+}
+
+.cont-java, #java {
+    margin-left: 0;
+    width: 100%;
+    height: 90%;
+}
+.cont-angular, #angular {
+    margin-left: 0;
+    width: 100%;
+    height: 90%;
+}
+
+
+}

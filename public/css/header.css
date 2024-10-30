@@ -1,0 +1,117 @@
+body {}
+
+#cont-header {
+    display: flex;
+    border: 1px black solid;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.cont-foto,
+img {
+    width: 150px;
+    height: 200px;
+    border: 1px black solid;
+}
+
+.cont-foto {
+    margin: 10px;
+}
+
+.cont-nombre-titulo {
+    margin: 10px;
+    width: 100%;
+    height: 200px;
+    background-image: url('../images/Portal.png');
+}
+
+#nombre {
+    margin: 4px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Times New Roman';
+}
+
+#subtt {
+    font-size: 14px;
+}
+
+.cont-nombre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border: 1px black solid;
+}
+
+.cont-titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+    border: 1px rgb(200, 205, 228) solid;
+    color: white;
+}
+
+#titulo {
+    font-size: 18px;
+}
+
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 10px;
+    width: 100%;
+    height: 100px;
+    background-image: url('../images/Portal.png');
+    border: 1px black solid;
+}
+
+.cont-red {
+    width: 50%;
+    margin: 2px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#nomred {
+    width: 200px;
+}
+
+#nomred a {
+    cursor: pointer;
+    color: white;
+    
+}
+
+#nomred a:hover {
+    
+    text-shadow: 2px 2px 4px rgb(248, 248, 252);
+}
+@media (max-width: 840px) {
+    #nombre {
+        font-size: 18px;
+    }
+
+    .cont-foto,
+    img {
+        width: 100px;
+        height: 130px;
+    }
+
+    .cont-nombre-titulo {
+        width: 100%;
+        height: 130px;
+    }
+
+    #titulo {
+        font-size: 8px;
+    }
+
+    .cont-titulo {
+        height: 80px;
+    }
+}

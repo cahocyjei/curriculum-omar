@@ -1,0 +1,55 @@
+#cont-exp {
+    margin-top: 10px;
+    border: 1px black solid;
+}
+
+.cont-avocados {
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px rgb(206, 201, 201) solid;
+}
+
+.cont-sintra {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px rgb(206, 201, 201) solid;
+}
+
+#avdo, #wordp {
+    margin: 4px;   
+    border: 1px rgb(206, 201, 201) solid;
+}
+
+#wordp, p {
+    text-align: justify;
+    margin: 10px;
+}
+
+#avdo p {
+    text-align: justify;
+    margin: 10px;
+}
+
+#avdo-url {
+    margin: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 4px;
+    border: 1px rgb(206, 201, 201) solid;
+}
+
+#wordp-url {
+    margin: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 4px;
+    border: 1px rgb(206, 201, 201) solid;
+}
+
+#avdo-url a {
+    margin-left: 10px;
+}
