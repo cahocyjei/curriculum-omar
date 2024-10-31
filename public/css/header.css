@@ -98,8 +98,6 @@ img {
         height: auto;
     }
 
-    
-    
     .cont-nombre-titulo {
         width: 90vw;
         height: auto;
@@ -135,5 +133,9 @@ img {
 
     #footer {
         width: 90vw;
+    }
+
+    #contact {
+        font-size: 14px;
     }
 }

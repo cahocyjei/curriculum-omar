@@ -14,6 +14,13 @@
     height: 100%;
 }
 
+.cont-java-avanzado,
+#java-avanzado {
+    margin-left: 5%;
+    margin-top: 10px;
+    width: 90%;
+    height: 100%;
+}
 .cont-java,
 #java {
     margin-left: 5%;
@@ -21,6 +28,8 @@
     width: 90%;
     height: 100%;
 }
+
+
 
 .cont-angular,
 #angular {
@@ -36,6 +45,7 @@
 
     #cont-estudios {
         width: 90vw;
+        height: 50vh;
     }
 
     .cont-utb,
@@ -47,6 +57,13 @@
 
     .cont-java,
     #java {
+        margin-left: 0;
+        width: 85vw;
+        height: auto;
+    }
+    
+    .cont-java-avanzado,
+    #java-avanzado {
         margin-left: 0;
         width: 85vw;
         height: auto;
