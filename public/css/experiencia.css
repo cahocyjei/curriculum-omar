@@ -17,12 +17,14 @@
     border: 1px rgb(206, 201, 201) solid;
 }
 
-#avdo, #wordp {
-    margin: 4px;   
+#avdo,
+#wordp {
+    margin: 4px;
     border: 1px rgb(206, 201, 201) solid;
 }
 
-#wordp, p {
+#wordp,
+p {
     text-align: justify;
     margin: 10px;
 }
@@ -50,6 +52,15 @@
     border: 1px rgb(206, 201, 201) solid;
 }
 
+#wordp-graph {
+    margin: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 4px;
+    border: 1px rgb(206, 201, 201) solid;
+}
+
 #avdo-url a {
     margin-left: 10px;
 }
@@ -66,5 +77,9 @@
 
     #wordp-url a {
         font-size: 12px;
+    }
+
+    #wordp-graph a {
+        font-size: 8px;
     }
 }

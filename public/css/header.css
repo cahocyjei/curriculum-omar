@@ -91,6 +91,17 @@ img {
     
     text-shadow: 2px 2px 4px rgb(248, 248, 252);
 }
+
+#b-pdf {
+    color: white;
+    border-radius: 20px;
+}
+
+#b-pdf:hover {
+   cursor: pointer;
+   box-shadow: 2px 2px 4px rgb(255, 255, 255);
+}
+
 @media (max-width: 1080px) {
 
     #cont-header {
@@ -124,11 +135,11 @@ img {
     }
 
     #nomred a{
-        font-size: 12px;
+        font-size: 8px;
     }
 
     #nomred {
-        width: 100px;
+        width: 50px;
     }
 
     #footer {
@@ -138,4 +149,10 @@ img {
     #contact {
         font-size: 14px;
     }
+
+    #b-pdf {
+        font-size: 8px;
+        width: 50px;
+    }
+
 }
