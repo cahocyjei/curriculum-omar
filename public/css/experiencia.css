@@ -9,26 +9,6 @@
     border: 1px rgb(206, 201, 201) solid;
 }
 
-.cont-sintra {
-    margin-top: 4px;
-    margin-bottom: 4px;
-    display: flex;
-    justify-content: space-evenly;
-    border: 1px rgb(206, 201, 201) solid;
-}
-
-#avdo,
-#wordp {
-    margin: 4px;
-    border: 1px rgb(206, 201, 201) solid;
-}
-
-#wordp,
-p {
-    text-align: justify;
-    margin: 10px;
-}
-
 #avdo p {
     text-align: justify;
     margin: 10px;
@@ -43,7 +23,20 @@ p {
     border: 1px rgb(206, 201, 201) solid;
 }
 
-#wordp-url {
+.cont-sintra {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px rgb(206, 201, 201) solid;
+}
+
+#sintra p {
+    text-align: justify;
+    margin: 10px;
+}
+
+#sintra-url {
     margin: 4px;
     display: flex;
     justify-content: center;
@@ -52,7 +45,20 @@ p {
     border: 1px rgb(206, 201, 201) solid;
 }
 
-#wordp-graph {
+.cont-graph {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px rgb(206, 201, 201) solid;
+}
+
+#graph p {
+    text-align: justify;
+    margin: 10px;
+}
+
+#graph-url {
     margin: 4px;
     display: flex;
     justify-content: center;
@@ -62,6 +68,14 @@ p {
 }
 
 #avdo-url a {
+    margin-left: 10px;
+}
+
+#sintra-url a {
+    margin-left: 10px;
+}
+
+#graph-url a {
     margin-left: 10px;
 }
 
@@ -75,11 +89,11 @@ p {
         font-size: 12px;
     }
 
-    #wordp-url a {
+    #sintra-url a {
         font-size: 12px;
     }
 
-    #wordp-graph a {
-        font-size: 8px;
-    }
+   #graph-url a {
+    font-size: 9px
+   }
 }

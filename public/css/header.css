@@ -93,8 +93,18 @@ img {
 }
 
 #b-pdf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px rgb(37, 14, 167) solid;
+    width: 75px;
+    border-radius: 10px;
+}
+
+#b-pdf a {
     color: white;
-    border-radius: 20px;
+    font-size: 14px;
+    text-decoration: none;
 }
 
 #b-pdf:hover {
@@ -150,9 +160,14 @@ img {
         font-size: 14px;
     }
 
-    #b-pdf {
-        font-size: 8px;
+    #b-pdf{
         width: 50px;
     }
+    
+    #b-pdf a{
+        font-size: 8px;
+    }
+
+
 
 }
